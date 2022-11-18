@@ -141,7 +141,7 @@ return
 
 ;; G4
 >^f::
-  Send %
+  Send {ASC 0037}
 return
 
 ;; H4
@@ -228,7 +228,7 @@ return
 ; ********** 5 *********
 ;; B5
 <^a::
-  Send `
+  Send {ASC 0096}
   return
 
 ;; C5
@@ -293,7 +293,7 @@ return
 
 ;; O5
 <^n::
-  Send ,
+  Send {ASC 0044}
   return
 
 ;; P5
@@ -323,7 +323,7 @@ return
 
 ;; U5
 <^t::
-  Send ;
+  Send {ASC 0059}
   return
 
 ;; V5
