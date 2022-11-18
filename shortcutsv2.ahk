@@ -542,9 +542,197 @@ return
 return
 
 +Space::
-  select the entire row
+  Send select the entire row
 return
 
 ^Space::
-  select the entire column
+  Send select the entire column
 return
+
+; PPT
+^m::
+  Send new slice
+return
+
+^z::
+  Send undo
+return
+
+PageDown::
+  Send Next Slide
+return
+
+^+[::
+  Send SendBack
+return
+
+^+]::
+  Send SendFwd
+return
+
+^a::
+  Send select all
+return
+
+^+c::
+  Send COPY Format
+return
+
+^+v::
+  Send Paste Format
+return
+
+; Zoom
+^+m::
+  Send Toggle Mic
+return
+
+!f::
+  Send Toggle screen
+return
+
+^tw::
+  Send Toggle Chat
+return
+
+!+s::
+  Send Toggle Share Screen
+return
+
+!F1::
+  Send Speaker View
+return
+
+!F2::
+  Send Gallery
+return
+
+!a::
+  Send Mute
+return
+
+!m::
+  Send Mute Audience
+return
+
+!rc::
+  Send Toggle record
+return
+
+!h::
+  Send Chat post
+return
+
+!q::
+  Send End
+return
+
+^x::
+  Send cut
+return
+
+^v::
+  Send Paste
+return
+
+^s::
+  Send save
+return
+
+^z::
+  Send undo
+return
+
+^a::
+  Send Select all
+return
+
+!y::
+  Send Toggle Hand
+return
+
+!u::
+  Send Toggle Part
+return
+
+Space::
+  Send Push to talk
+return
+
+!v::
+  Send Toggle Cam
+return
+
+^!sh::
+  Send comtrols
+return
+
+; Chrome
+o::
+  Send Search Web
+return
+
+^p::
+  Send Print
+return
+
+^o::
+  Send Open PC file in Chrome
+return
+
+^i::
+  Send Jump to address bar
+return
+
+^+q::
+  Send Quit Chrome
+return
+
+^NumpadAdd::
+  Send Larger
+return
+
+^NumpadSub::
+  Send Smaller
+return
+
+; Discord
+q::
+  Send Quote Message
+return
+
+NumpadAdd::
+  Send Add a Reaction
+return
+
+r::
+  Send Reply to Message
+return
+
+e::
+  Send Edit
+return
+
+bs::
+  Send delete message
+return
+
+p::
+  Send Pin Message
+return
+
+^c::
+  Send compy message content
+return
+
+; ?!
+!NumpadAdd::
+  Send Mark unread
+return
+
+Esc::
+  Send Move back to the Textbook/Chatbar
+return
+
+; Emacs
+
