@@ -3,7 +3,8 @@ SendMode Input
 SetWorkingDir, %A_ScriptDir%
 
 ; ********* KEY MAP FILE **********
-
+; ********* 2 ********
+; using left alt
 ; B2
 <!a::
 Send asof
@@ -110,6 +111,7 @@ return
 ;; Z3
 ;; AA3
 
+; ********* 4 **********
 ; Assuming UC means RightCtrl
 
 ;; B4
@@ -223,3 +225,272 @@ return
   Send types
 return
 
+; ********** 5 *********
+;; B5
+<^a::
+  Send `
+  return
+
+;; C5
+<^b::
+  Send 1
+  return
+
+;; D5
+<^c::
+  Send 2
+  return
+
+;; E5
+<^d::
+  Send 3
+  return
+
+;; F5
+<^e::
+  Send 4
+  return
+
+;; G5
+<^f::
+  Send 5
+  return
+
+;; H5
+<^g::
+  Send 6
+  return
+
+;; I5
+<^h::
+  Send 7
+  return
+
+;; J5
+<^i::
+  Send 8
+  return
+
+;; K5
+<^j::
+  Send 9
+  return
+
+;; L5
+<^k::
+  Send 0
+  return
+
+;; M5
+<^l::
+  Send -
+  return
+
+;; N5
+<^m::
+  Send =
+  return
+
+;; O5
+<^n::
+  Send ,
+  return
+
+;; P5
+<^o::
+  Send .
+  return
+
+;; Q5
+<^p::
+  Send /
+  return
+
+;; R5
+<^q::
+  Send [
+  return
+
+;; S5
+<^r:: 
+  Send ]
+  return
+
+;; T5
+<^s::
+  Send \
+  return
+
+;; U5
+<^t::
+  Send ;
+  return
+
+;; V5
+<^u::
+  Send '
+  return
+
+;; W5
+;; X5
+<^w::
+  Send no alt
+  return
+
+;; ********* 6 *********
+; using right alt
+;; B6
+;; C6
+>!b::
+  Send ↟
+  return
+
+;; D6
+>!c::
+  Send amend
+  return
+
+;; E6
+;; F6
+>!e::
+  Send $[c;t;e]
+  return
+
+;; G6
+>!f::
+  Send ÷
+  return
+
+;; H6
+>!g::
+  Send ↑
+  return
+
+;; I6
+;; J6
+>!i::
+  Send ×
+  return
+
+;; K6
+>!j::
+  Send ( ; )
+  return
+
+;; L6
+;; M6
+>!l::
+  Send ↓
+  return
+
+;; N6
+>!m::
+  Send ↕
+  return
+
+;; O6
+>!n::
+  Send ∘
+  return
+
+;; P6
+>!o::
+  Send Dmend
+  return
+
+;; Q6
+>!p::
+  Send ⊲
+  return
+
+;; R6
+>!q::
+  Send [ ; ]
+  return
+
+;; S6
+>!r::
+  Send [ ! ]
+  return
+
+;; T6
+>!s::
+  Send ⊳
+  return
+
+;; U6
+>!t::
+  Send →
+  return
+
+;; V6
+>!u::
+  Send ∆
+  return
+
+;; W6
+;; X6
+>!w::
+  Send prints
+  return
+
+;; ******** 8 ********
+;; D8
+F1::
+  Send select
+  return
+
+;; E8
+F2::
+  Send update
+  return
+
+;; F8
+F3::
+  Send delete
+  return
+
+;; G8
+F4::
+  Send insert
+  return
+
+;; H8
+F5::
+  Send upsert
+  return
+
+;; I8
+F6::
+  Send fselect
+  return
+
+;; J8
+F7::
+  Send join
+  return
+
+;; K8
+F8::
+  Send ⊲
+  return
+
+;; L8
+F9::
+  Send ⊳
+  return
+
+;; M8
+F10::
+  Send ∆
+  return
+
+;; N8
+F11::
+  Send →
+  return
+
+;; O8
+F12::
+  Send ⎙
+  return
