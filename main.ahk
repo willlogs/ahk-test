@@ -5,27 +5,27 @@ SetWorkingDir, %A_ScriptDir%
 ; ********* KEY MAP FILE **********
 
 ; B2
-<!A::
+<!a::
 Send asof
 return
 
 ; D3
-<!C::
+<!c::
 Send §
 return
 
 ; E3
-<!D::
+<!d::
 Send do loop
 return
 
 ; F3
-<!E::
+<!e::
 Send ...
 return
 
 ; G3
-<!F::
+<!f::
 Send {[]}
 return
 
@@ -33,12 +33,12 @@ return
 
 
 ; I3
-<!H::
+<!h::
 Send Help
 return
 
 ; J3
-<!I::
+<!i::
 Send ◻ 
 return
 
@@ -49,7 +49,7 @@ return
 
 
 ; M3
-<!L::
+<!l::
 Send For Loop
 return
 
@@ -62,50 +62,164 @@ return
 
 
 ;; P3
-<!O::
+<!o::
 Send ◼
 return
 
 ;; Q3
-<!P::
+<!p::
 Send ⎙
 return
 
 ;; R3
-<!Q::
+<!q::
 Send 🖶
 return
 
 ;; S3
-<!R::
+<!r::
 Send ⇑
 return
 
 ;; T3
-<!S::
+<!s::
 Send ↟
 return
 
 ;; U3
-<!T::
+<!t::
 Send table
 return
 
 ;; V3
-<!U::
+<!u::
 Send utable
 return
 
 ;; W3
-<!V::
+<!v::
 Send Defverb
 return
 
 ;; X3
-<!W::
+<!w::
 Send while loop
 return
 
 ;; Y3
 ;; Z3
 ;; AA3
+
+; Assuming UC means RightCtrl
+
+;; B4
+>^a::
+  Send ~
+  return
+
+;; C4
+>^b::
+  Send !
+return
+
+;; D4
+>^c::
+  Send @
+return
+
+;; E4
+>^d::
+  Send #
+return
+
+;; F4
+>^e::
+  Send $
+return
+
+;; G4
+>^f::
+  Send %
+return
+
+;; H4
+>^g::
+  Send ^
+return
+
+;; I4
+>^h::
+  Send &
+return
+
+;; J4
+>^i::
+  Send *
+return
+
+;; K4
+>^j::
+  Send (
+return
+
+;; L4
+>^k::
+  Send )
+return
+
+;; M4
+>^l::
+  Send _
+return
+
+;; N4
+>^m::
+  Send +
+return
+
+;; O4
+>^n::
+  Send <
+return
+
+;; P4
+>^o::
+  Send >
+return
+
+;; Q4
+>^p::
+  Send ?
+return
+
+;; R4
+>^q::
+  Send {
+return
+
+;; S4
+>^r::
+  Send }
+return
+
+;; T4
+>^s::
+  Send |
+return
+
+;; U4
+>^t::
+  Send :
+return
+
+;; V4
+>^u::
+  Send "
+return
+
+;; W4
+;; X4
+>^w::
+  Send types
+return
+
