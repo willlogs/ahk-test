@@ -33,3 +33,27 @@ return
 Up::
   Send Open Previous
 return
+
+Down::
+  Send Open Next
+return
+
++Up::
+  Send Prev Unread
+return
+
++Down::
+  Send Next Unread
+return
+
+Enter::
+  Send Select
+return
+
++Enter::
+  Send Newline
+return
+
++/::
+  Send Show Shortcuts
+return

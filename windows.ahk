@@ -45,7 +45,21 @@ return
   Send Clip Hist
 return
 
-; W-Cursor
+#Left::
+  Send Layout left
+return
+
+#Right::
+  Send Layout right
+return
+
+#Up::
+  Send Layout up
+return
+
+#Down::
+  Send Layout down
+return
 
 #^d::
   Send NewDesk
