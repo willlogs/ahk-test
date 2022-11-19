@@ -7,10 +7,6 @@ return
   Send Toggle screen
 return
 
-^tw::
-  Send Toggle Chat
-return
-
 !+s::
   Send Toggle Share Screen
 return
@@ -29,10 +25,6 @@ return
 
 !m::
   Send Mute Audience
-return
-
-!rc::
-  Send Toggle record
 return
 
 !h::
@@ -79,6 +71,3 @@ return
   Send Toggle Cam
 return
 
-^!sh::
-  Send comtrols
-return

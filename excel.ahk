@@ -39,7 +39,7 @@ return
   Send Insert Link
 return
 
-^+NumpadAdd::
+^+=::
   Send Insert Row/Col
 return
 
@@ -105,10 +105,6 @@ return
 
 ^;::
   Send insert the current date
-return
-
-^k::
-  Send insert a hyperlink
 return
 
 +Space::

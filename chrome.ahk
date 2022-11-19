@@ -23,6 +23,14 @@ return
   Send Larger
 return
 
+^+=::
+  Send Larger
+return
+
 ^NumpadSub::
+  Send Smaller
+return
+
+^-::
   Send Smaller
 return

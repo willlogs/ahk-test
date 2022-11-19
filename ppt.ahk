@@ -7,7 +7,7 @@ return
   Send undo
 return
 
-PageDown::
+PgDn::
   Send Next Slide
 return
 

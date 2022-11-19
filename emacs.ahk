@@ -74,10 +74,6 @@ return
   Send Kill Sent
 return
 
-^/::
-  Send Undo
-return
-
 ^NumpadAdd::
   Send set mark
 return
@@ -90,18 +86,20 @@ return
   Send yank prev
 return
 
-^xf::
+#If, GetKeyState("x")
+^f::
   Send find file
 return
 
-^xs::
+^s::
   Send save
 return
 
-^xb::
+^b::
   Send buffers
 return
 
-^xc::
+^c::
   Send exit
 return
+#If

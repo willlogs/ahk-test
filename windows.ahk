@@ -167,9 +167,9 @@ return
   Send Paste
 return
 
-^Delete::
-  Send Delete
-return
+;^Del::
+;  Send Delete
+;return
 
 Esc::
   Send Close
@@ -247,13 +247,13 @@ return
   Send Move right
 return
 
-#Left::
-  Send Snap app left
-return
+;#Left::
+;  Send Snap app left
+;return
 
-#Right::
-  Send Snap app right
-return 
+;#Right::
+;  Send Snap app right
+;return 
 
 #s::
   Send Open

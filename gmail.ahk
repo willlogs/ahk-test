@@ -35,17 +35,17 @@ return
   Send next
 return
 
-^p::
-  Send previous
-return
+;^p::
+;  Send previous
+;return
 
 ^x::
   Send delete msg
 return
 
-+iu::
-  Send Mark
-return
+;+iu::
+;  Send Mark
+;return
 
 ^Enter::
   Send send
@@ -96,9 +96,9 @@ return
   Send Reply
 return
 
-^a::
-  Send Replyall
-return
+;^a::
+;  Send Replyall
+;return
 
 ^f::
   Send forward
