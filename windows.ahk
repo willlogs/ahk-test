@@ -36,10 +36,13 @@ return
   Send ModProj
 return
 
-; or alt + s
 #q::
   Send Search
 return
+
+;#s::
+  ;Send Search
+;return
 
 #v::
   Send Clip Hist
@@ -191,11 +194,11 @@ return
   Send Go
 return
 
-!Up::
+!PgUp::
   Send Move up
 return
 
-!Down::
+!PgDn::
   Send Move down
 return
 

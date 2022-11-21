@@ -11,9 +11,9 @@ return
   Send Undo
 return
 
-^p::
-  Send Print
-return
+;^p::
+;  Send Print
+;return
 
 !m::
   Send open cls
@@ -35,9 +35,9 @@ return
   Send next
 return
 
-;^p::
-;  Send previous
-;return
+^p::
+  Send previous
+return
 
 ^x::
   Send delete msg
@@ -104,6 +104,6 @@ return
   Send forward
 return
 
-^!g::
-  Send Goto in
-return
+;^!g::
+;  Send Goto in
+;return

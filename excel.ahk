@@ -7,9 +7,9 @@ return
   Send Bottom of Col
 return
 
-^+::
-  Send Toggle Corner of Selection
-return
+;^+::
+;  Send Toggle Corner of Selection
+;return
 
 ^d::
   Send Fill from Above
@@ -113,4 +113,8 @@ return
 
 ^Space::
   Send select the entire column
+return
+
+^Del::
+  Send delete a column
 return
